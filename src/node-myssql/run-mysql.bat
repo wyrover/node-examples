@@ -1,0 +1,1 @@
+mysql -uroot -pxiaotian -Dquotes -e"select * from quotes;"
