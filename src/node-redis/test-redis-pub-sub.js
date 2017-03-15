@@ -1,5 +1,5 @@
 var redis = require('redis');
-  talkativeClient = redis.createClient(),
+talkativeClient = redis.createClient(),
   pensiveClient = redis.createClient();
 
 pensiveClient.on("subscribe", function(channel, count) {
